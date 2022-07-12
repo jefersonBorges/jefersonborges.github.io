@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato - ARS Gestão de Instagram</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <div class="landing-page">
+        <div class="container">
+            <div class="page-description">
+                <h1>Social Media</h1>
+                <h2>Optio iusto exercitationem alias aperiam hic enim?</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum officiis commodi impedit, accusamus, expedita laboriosam perferendis dolore pariatur atque praesentium unde fugit possimus sit? Molestias reiciendis eligendi harum delectus distinctio?</p>
+            </div>
+            <form class="contact-form">
+                <div class="form-description">
+                    <legend class="form-title">Preencha seus dados</legend>
+                    <span>
+                        Entrarei em contato para agendar nossa reunião
+                    </span>
+                </div>
+                <label for="fname">Qual seu nome?</label>
+                <input class="data-entry input" type="text" name="fname" id="fname" required placeholder="Ex.: Maria">
+                <label for="tel-whats">Qual seu número de whats?</label>
+                <input class="data-entry input" type="tel" name="tel-whats" id="tel-whats" required placeholder="Ex.: 55 51 9 9999-9999">
+                <div class="row-form">
+                    <input type="checkbox" name="contact-accepted" id="contact-accepted" required checked>
+                    <label for="contact-accepted">Desejo receber este contato via whatsapp</label>
+                </div>
+                <label for="objectives">Quais são seus objetivos com o Gerenciamento de redes Sociais?</label>
+                <textarea class="data-entry" name="objectives" id="objectives" placeholder="Ex.: Aumentar vendas, Reforçar autoridade, Liberar tempo para outras tarefas ..." required></textarea>
+                <label for="employee-number">Quantos funcionários sua empresa possui?</label>
+                <input class="data-entry input" type="number" name="employee-number" id="employee-number" step="1" min="0" placeholder="Ex.: 1, 2, 3 ..." required>
+                <label for="insta-profile">Perfil do instagram</label>
+                <input class="data-entry input" type="text" name="insta-profile" id="insta-profile" placeholder="Ex.: @ars" required>
+                <label for="investment">
+                    À partir de quanto está disposta a investir no marketing das suas redes sociais?
+                </label>
+                <select class="data-entry input" name="investment" id="investment" required>
+                    <option disabled selected>Selecione:</option>
+                    <option value="Acima-de-1500">Acima de R$: 1500,00</option>
+                    <option value="Entre-1000-ate-1500">Entre R$: 1.000,00 até  R$: 1.500,00</option>
+                    <option value="Entre-500-ate-1000">Entre R$: 500,00 até R$: 1000,00</option>
+                    <option value="Menos-de-500">Menos de R$: 500,00</option>
+                </select>
+                <button type="submit">Enviar</button>
+            </form>    
+        </div>
+    </div>
+</body>
+</html>
