@@ -84,7 +84,7 @@ span{
     line-height: var(--line-height-form-secondary);
     color: var(--font-form-color-primary);
 }
-button{
+.button{
     font-family: var(--font-primary);
     font-size: var(--font-size-secondary);
     line-height: var(--line-height-form-secondary);
@@ -116,7 +116,7 @@ button{
         font-size: var(--font-size-form-secondary-mobile);
         line-height: var(--line-height-form-secondary-mobile);
     }
-    button{
+    .button{
         font-size: var(--font-size-secondary-mobile);
         line-height: var(--line-height-form-secondary-mobile);
     }
