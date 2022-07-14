@@ -90,6 +90,9 @@ span{
     line-height: var(--line-height-form-secondary);
     color: var(--font-color-secondary);
 }
+.display-none{
+    display: none;
+}
 
 @media(max-width: 800px){
     h1{
