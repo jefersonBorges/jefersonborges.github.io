@@ -1,126 +1,32 @@
 :root{
-    --font-primary: 'arial', sans-serif;
-    --font-size-primary: 50px;
-    --font-size-primary-mobile: 30px;
-    --line-height-primary: 50px;
-    --line-height-primary-mobile: 32px;
-    --font-color-primary: rgb(220, 220, 220);
+    --font-primary: 'Fraunces', serif;
+    --font-size-primary: 47px;
+    --font-size-primary-mobile: 32px;
+    --line-height-primary: 40px;
+    --line-height-primary-mobile: 25px;
+    --font-color-primary: #ba4b2f;
     
-    --font-secondary: 'Courier New', monospace;
-    --font-size-secondary: 30px;
+    --font-secondary: 'Josefin Sans', sans-serif;
+    --font-size-secondary: 22px;
     --font-size-secondary-mobile: 22px;
-    --line-height-secondary: 36px;
+    --line-height-secondary: 25px;
     --line-height-secondary-mobile: 25px;
-    --font-color-secondary: rgb(220, 220, 220);
+    --font-color-secondary: #ba4b2f;
 
-    --font-tertiary: 'Courier New', monospace;
-    --font-size-tertiary: 20px;
-    --font-size-tertiary-mobile: 20px;
-    --line-height-tertiary: 20px;
-    --line-height-tertiary-mobile: 22px;
-    --font-color-tertiary: rgb(220, 220, 220);
+    --font-size-tertiary: 18px;
+    --line-height-tertiary: 18px;
 
-    --font-form: 'Times New Roman', serif;
-    --font-size-form-primary: 30px;
-    --font-size-form-primary-mobile: 20px;
-    --line-height-form-primary: 36px;
-    --line-height-form-primary-mobile: 22px;
-    --font-form-color-primary: rgb(220, 220, 220);
+    --color-primary: #d3a081;
+    --color-primary-transparency:#d3a08191;
+    --color-secondary: #fcf5eb;
 
-    --font-size-form-secondary: 22px;
-    --font-size-form-secondary-mobile: 20px;
-    --line-height-form-secondary: 25px;
-    --line-height-form-secondary-mobile: 22px;
-
-    --font-size-form-tertiary: 18px;
-    --font-size-form-tertiary-mobile: 20px;
-    --line-height-form-tertiary: 20px;
-    --line-height-form-tertiary-mobile: 22px;
+    --padding-box: 30px;
 }
-html, body, input, textarea, button, select{
+html, body, form, input, textarea, button, select{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     border: none;
     outline: none;
     word-break: break-word;
-}
-body{
-    background-color: rgb(50, 50, 50);
-}
-h1{
-    font-family: var(--font-primary);
-    font-size: var(--font-size-primary);
-    line-height: var(--line-height-primary);
-    color: var(--font-color-primary);
-}
-h2{
-    font-family: var(--font-secondary);
-    font-size: var(--font-size-secondary);
-    line-height: var(--line-height-secondary);
-    color: var(--font-color-secondary);
-}
-p{
-    font-family: var(--font-tertiary);
-    font-size: var(--font-size-tertiary);
-    line-height: var(--line-height-tertiary);
-    color: var(--font-color-tertiary);
-}
-legend{
-    font-family: var(--font-form);
-    font-size: var(--font-size-form-primary);
-    line-height: var(--line-height-form-primary);
-    color: var(--font-form-color-primary);
-}
-label{
-    font-family: var(--font-form);
-    font-size: var(--font-size-form-tertiary);
-    line-height: var(--line-height-form-tertiary);
-    color: var(--font-form-color-primary);
-}
-span{
-    font-family: var(--font-form);
-    font-size: var(--font-size-form-secondary);
-    line-height: var(--line-height-form-secondary);
-    color: var(--font-form-color-primary);
-}
-.button{
-    font-family: var(--font-primary);
-    font-size: var(--font-size-secondary);
-    line-height: var(--line-height-form-secondary);
-    color: var(--font-color-secondary);
-}
-.display-none{
-    display: none;
-}
-
-@media(max-width: 800px){
-    h1{
-        font-size: var(--font-size-primary-mobile);
-        line-height: var(--line-height-primary-mobile);
-    }
-    h2{
-        font-size: var(--font-size-secondary-mobile);
-        line-height: var(--line-height-secondary-mobile);
-    }
-    p{
-        font-size: var(--font-size-tertiary-mobile);
-        line-height: var(--line-height-tertiary-mobile);
-    }
-    legend{
-        font-size: var(--font-size-form-primary-mobile);
-        line-height: var(--line-height-form-primary-mobile);
-    }
-    label{
-        font-size: var(--font-size-form-tertiary-mobile);
-        line-height: var(--line-height-form-tertiary-mobile);
-    }
-    span{
-        font-size: var(--font-size-form-secondary-mobile);
-        line-height: var(--line-height-form-secondary-mobile);
-    }
-    .button{
-        font-size: var(--font-size-secondary-mobile);
-        line-height: var(--line-height-form-secondary-mobile);
-    }
 }
