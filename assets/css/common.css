@@ -1,20 +1,18 @@
 :root{
     --font-primary: 'Fraunces', serif;
-    --font-size-primary: 47px;
-    --font-size-primary-mobile: 32px;
-    --line-height-primary: 40px;
-    --line-height-primary-mobile: 25px;
+    --font-size-primary: 39px;
+    --font-size-primary-mobile: 30px;
+    --line-height-primary: 32px;
+    --line-height-primary-mobile: 27px;
     --font-color-primary: #ba4b2f;
     
     --font-secondary: 'Josefin Sans', sans-serif;
-    --font-size-secondary: 22px;
-    --font-size-secondary-mobile: 22px;
-    --line-height-secondary: 25px;
-    --line-height-secondary-mobile: 25px;
+    --font-size-secondary: 20px;
+    --line-height-secondary: 22px;
     --font-color-secondary: #ba4b2f;
 
-    --font-size-tertiary: 18px;
-    --line-height-tertiary: 18px;
+    --font-size-tertiary: 17px;
+    --line-height-tertiary: 20px;
 
     --color-primary: #d3a081;
     --color-primary-transparency:#d3a08191;

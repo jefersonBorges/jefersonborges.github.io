@@ -12,6 +12,12 @@ body{
     justify-content: center;
     align-items: center;
 }
+@media(max-width: 900px){
+    body{
+        height: unset;
+        min-height: 100vh;
+    }
+}
 
 .landing-page{
     height: 100%;
@@ -20,48 +26,55 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    overflow: hidden;
-}
-@media(max-width: 800px){
-    .landing-page{
-        
-    }
 }
 
 .container{
     height: 100%;
-    max-width: 1200px;
+    max-width: 900px;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
 }
-@media(max-width: 800px){
+@media(max-width: 900px){
     .container{
         flex-direction: column;
+        min-width: 320px;
     }
 }
 
 .page-description{
     position: relative;
+    height: 100%;
     min-width: 300px;
     max-width: 400px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
+    margin-right: 150px;
+    margin-left: 20px;
 }
-@media(max-width: 800px){
+@media(max-width: 900px){
     .page-description{
-        flex-direction: column;
-        min-width: 150px;
-        max-width: 240px;
-        padding: 0px;
+        max-width: 260px;
+        height: 100%;
+        margin: unset;
+        padding: 0px 20px 20px 20px;
     }
 }
 
 .logo{
-    width: 200px;
+    width: 189px;
+    position: absolute;
+    top: -30px;
+    left: -30px;
+}
+@media(max-width: 900px){
+    .logo{
+        top: -10px;
+        left: -10px;
+    }
 }
 
 h1{
@@ -70,12 +83,13 @@ h1{
     line-height: var(--line-height-primary);
     color: var(--font-color-primary);
     font-weight: bold;
-    margin: 50px 0px 30px 0px;
+    margin: 0px 0px 30px 0px;
 }
-@media(max-width: 800px){
+@media(max-width: 900px){
     h1{
         font-size: var(--font-size-primary-mobile);
         line-height: var(--line-height-primary-mobile);
+        margin-top: 130px;
     }
 }
 
@@ -87,17 +101,11 @@ p{
     margin: 20px 0px 0px 0px;
     font-weight: bold;
 }
-@media(max-width: 800px){
-    p{
-        font-size: var();
-        line-height: var();
-    }
-}
 
 .contact-form{
     height: 100%;
-    min-width: 300px;
-    max-width: 400px;
+    min-width: 400px;
+    max-width: 450px;
     padding: var(--padding-box);
     border-radius: 30px;
     background-color: var(--color-primary-transparency);
@@ -106,10 +114,10 @@ p{
     justify-content: center;
     align-items: flex-start;
 }
-@media(max-width: 800px){
+@media(max-width: 900px){
     .contact-form{
-        min-width: 150px;
-        max-width: 240px;
+        min-width: 280px;
+        max-width: 300px;
         padding: 20px;
     }
 }
@@ -127,12 +135,6 @@ legend{
     color: var(--font-color-primary);
     font-weight: bold;
 }
-@media(max-width: 800px){
-    legend{
-        font-size: var();
-        line-height: var();
-    }
-}
 
 .display-none{
     display: none;
@@ -145,16 +147,10 @@ label{
     color: var(--font-color-primary);
     font-weight: bold;
 }
-@media(max-width: 800px){
-    label{
-        font-size: var();
-        line-height: var();
-    }
-}
 
 .data-entry{
     width: 100%;
-    margin-top: 4px;
+    margin-top: 3px;
     margin-bottom: 12px;
     padding: 9px 15px;
     border-radius: 18px;
@@ -168,20 +164,18 @@ label{
 .data-entry:hover{
     transform: scale(1.05);
 }
-@media(max-width: 800px){
+@media(max-width: 900px){
     .data-entry{
         margin-top: 5px;
-        font-size: var();
-        line-height: var();
     }
 }
 
 .input{
-    height: 35px;
+    height: 34px;
 }
 
 .contact-form textarea{
-    height: 45px;
+    height: 50px;
     resize: none;
 }
 
@@ -201,13 +195,7 @@ label{
 .button:hover{
     cursor: pointer;
     box-shadow: 0px 0px 5px 1px var(--color-secondary);
-    transform: scale(1.02);
-}
-@media(max-width: 800px){
-    .button{
-        font-size: var();
-        line-height: var();
-    }
+    transform: scale(1.05);
 }
 
 .detail{
