@@ -2,7 +2,7 @@
     --font-primary: 'Fraunces', serif;
     --font-size-primary: 39px;
     --font-size-primary-mobile: 30px;
-    --line-height-primary: 32px;
+    --line-height-primary: 39px;
     --line-height-primary-mobile: 27px;
     --font-color-primary: #ba4b2f;
     
@@ -27,4 +27,9 @@ html, body, form, input, textarea, button, select{
     border: none;
     outline: none;
     word-break: break-word;
+}
+.detail{
+    height: 10px;
+    width: 100%;
+    background-color: var(--color-primary);
 }
